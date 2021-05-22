@@ -1,0 +1,12 @@
+spring:
+  jackson:
+    default-property-inclusion: NON_NULL
+
+api:
+  messages:
+    already-exist: El departamento que intenta agregar ya existe!
+    internal-server-error: Ocurrió un error inesperado
+    abc-url: https://www.abc.com.py
+  http:
+    auth-token-header-name: X-API-KEY
+    apikey: a.123456

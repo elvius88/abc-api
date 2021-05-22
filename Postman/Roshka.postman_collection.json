@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "1fab3eeb-be88-43a6-a865-774b14c3a1b8",
+		"name": "Roshka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Consulta",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "text/plain",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-api-key",
+						"value": "a.123456",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/abc/consulta?q=marito",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"abc",
+						"consulta"
+					],
+					"query": [
+						{
+							"key": "f",
+							"value": "true",
+							"disabled": true
+						},
+						{
+							"key": "q",
+							"value": "marito"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
